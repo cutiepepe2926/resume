@@ -18,7 +18,7 @@
     "lint": "eslint \"component/**/*\" \"pages/**/*\" \"payload/**/*\" \"*.ts\" --fix",
     "typedoc": "typedoc --excludeExternals"
   },
-  "homepage": "https://cutiepepe2926.github.io",
+  "homepage": "https://cutiepepe2926.github.io/resume",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cutiepepe2926/resume.git"
