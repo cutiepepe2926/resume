@@ -5,7 +5,7 @@ const { homepage } = require('./package.json');
 const { NODE_ENV } = process.env;
 
 module.exports = withImages({
-  assetPrefix: (() => {
+  assetPrefix: '.' (() => {
     if (NODE_ENV === 'production' && homepage) {
       try {
         console.log('> Detected homepage url in package.json');

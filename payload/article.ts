@@ -9,7 +9,7 @@ const article: IArticle.Payload = {
       href: '#',
     },
     {
-      content: 'Featured on the cover of "Linux Monthly" as the face of Linux (2016, 2018, 2020).',
+      content: 'Featured on the Monthly" as the face of Linux (2016, 2018, 2020).',
       href: '#',
     },
   ],

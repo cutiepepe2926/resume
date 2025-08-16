@@ -54,7 +54,7 @@ const project: IProject.Payload = {
           weight: 'MEDIUM',
           descriptions: [
             {
-              content: '로그인 화면, 회원가입, 홈 화면 담당',
+              content: '로그인, 회원가입, 홈 화면 담당',
             },
           ],
         },
