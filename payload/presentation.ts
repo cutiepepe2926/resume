@@ -14,7 +14,7 @@ const presentation: IPresentation.Payload = {
         },
         {
           content: 'Slideshare:',
-          postHref: 'https://www.slideshare.net/',
+          postHref: 'https://www.slideshare/',
         },
       ],
     },
