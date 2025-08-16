@@ -1,9 +1,9 @@
-import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
-import { faFacebook, faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faBlog, faEnvelope, faFileArchive /* faPhone */ } from '@fortawesome/free-solid-svg-icons';
+import { /* faFacebook, */ faGithub } from '@fortawesome/free-brands-svg-icons';
 
 import { faBell } from '@fortawesome/free-regular-svg-icons';
 import { IProfile } from '../component/profile/IProfile';
-import image from '../asset/sample_tux.png';
+import image from '../asset/selfpic.png';
 
 const profile: IProfile.Payload = {
   disable: false,
@@ -11,32 +11,33 @@ const profile: IProfile.Payload = {
   // image: 'https://resume.yowu.dev/static/image/profile_2019.png',
   image,
   name: {
-    title: 'Tux Linux Penguin',
-    small: '(Tux)',
+    title: '이건희',
+    small: '백엔드 개발자 지망생',
   },
   contact: [
     {
-      title: 'tux@linux.org',
-      link: 'mailto:tux@linux.org',
+      title: 'kunhee2926@naver.com',
+      link: 'mailto:kunhee2926@naver.com',
       icon: faEnvelope,
     },
     {
-      title: 'Please contact me by email',
-      icon: faPhone,
-      badge: true,
+      title: 'https://cutiepepe2926.tistory.com',
+      link: 'https://cutiepepe2926.tistory.com',
+      icon: faBlog,
     },
     {
-      link: 'https://github.com/uyu423/resume-nextjs',
+      link: 'https://github.com/cutiepepe2926',
       icon: faGithub,
     },
     {
-      link: 'https://www.facebook.com/groups/ubuntu.ko',
-      icon: faFacebook,
+      title: 'https://notion.so/kunhee2926',
+      link:
+        'https://www.notion.so/250935c027f98048a294ef175f7ebf26?v=250935c027f9800494bd000cb7c9d567',
+      icon: faFileArchive,
     },
   ],
   notice: {
-    title:
-      "The content below is all fictitious and is just a sample from 'https://github.com/uyu423/resume-nextjs'.",
+    title: '읽어주셔서 감사합니다.',
     icon: faBell,
   },
 };

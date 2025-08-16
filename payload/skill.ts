@@ -8,156 +8,105 @@ const programmingLanguages: ISkill.Skill = {
       level: 3,
     },
     {
-      title: 'Shell Scripting',
-      level: 3,
+      title: 'HTML/CSS',
+      level: 2,
+    },
+    {
+      title: 'Java',
+      level: 2,
+    },
+    {
+      title: 'Android',
+      level: 2,
     },
     {
       title: 'Python',
-      level: 3,
-    },
-    {
-      title: 'Perl',
       level: 2,
     },
     {
-      title: 'Golang',
-      level: 2,
-    },
-    {
-      title: 'Rust',
+      title: 'Javascript',
       level: 1,
     },
   ],
 };
 
 const kernelDevelopment: ISkill.Skill = {
-  category: 'Kernel Development',
+  category: 'Frameworks',
   items: [
     {
-      title: 'Kernel Programming',
-      level: 3,
+      title: 'Spring',
+      level: 1,
     },
     {
-      title: 'GNU Debugger',
-      level: 3,
-    },
-    {
-      title: 'Memory Management',
-      level: 2,
-    },
-    {
-      title: 'System Call Interface',
-      level: 2,
+      title: 'Spring Boot',
+      level: 1,
     },
   ],
 };
 
 const virtualization: ISkill.Skill = {
-  category: 'Virtualization',
+  category: 'Databases',
   items: [
     {
-      title: 'Docker',
-      level: 3,
-    },
-    {
-      title: 'KVM',
-      level: 3,
-    },
-    {
-      title: 'Xen',
+      title: 'Oracle',
       level: 2,
     },
     {
-      title: 'VirtualBox',
-      level: 2,
-    },
-    {
-      title: 'VMware ESXi',
+      title: 'MySQL',
       level: 1,
     },
   ],
 };
 
 const automation: ISkill.Skill = {
-  category: 'Automation',
+  category: 'Infrastructure',
   items: [
     {
-      title: 'Ansible',
-      level: 3,
-    },
-    {
-      title: 'Puppet',
-      level: 3,
-    },
-    {
-      title: 'Chef',
-      level: 2,
-    },
-    {
-      title: 'Jenkins',
-      level: 2,
-    },
-    {
-      title: 'CI/CD Pipelines',
+      title: 'AWS',
       level: 1,
     },
     {
-      title: 'Infrastructure as Code',
+      title: 'Docker',
       level: 1,
     },
   ],
 };
 
 const networkSecurity: ISkill.Skill = {
-  category: 'Network Security',
+  category: 'Tools & IDEs',
   items: [
     {
-      title: 'iptables',
-      level: 3,
+      title: 'Github',
     },
     {
-      title: 'OpenSSH',
-      level: 3,
+      title: 'Git',
     },
     {
-      title: 'OpenSSL',
-      level: 2,
+      title: 'VScode',
     },
     {
-      title: 'NACLs',
-      level: 2,
+      title: 'Visual Studio',
     },
     {
-      title: 'VPN Technologies',
-      level: 2,
-    },
-    {
-      title: 'Intrusion Detection',
-      level: 1,
+      title: 'Android Studio',
     },
   ],
 };
 
 const misc: ISkill.Skill = {
-  category: 'Misc',
+  category: '자격증',
   items: [
     {
-      title: 'Coffee Brewing',
+      title: '정보처리기사(예정)',
     },
     {
-      title: "Rubik's Cube Solving",
+      title: 'SQLD(예정)',
     },
     {
-      title: 'Table Tennis',
+      title: 'TOEIC 825',
     },
     {
-      title: 'Guitar Playing',
-    },
-    {
-      title: 'Joke Telling',
-    },
-    {
-      title: 'Duct Tape Crafting',
+      title: 'TOEIC SPEAKING IM3',
     },
   ],
 };
