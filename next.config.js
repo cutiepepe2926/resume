@@ -23,6 +23,8 @@ module.exports = withImages({
     return '';
   })(),
 });
+
+assetPrefix: '.'
 // withCSS({
 // webpack: config => {
 //   config.resolve.alias['@'] = __dirname;
