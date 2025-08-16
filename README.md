@@ -10,7 +10,7 @@
 
 ## Introduce
 
-- 해당 resume는 https://github.com/uyu423/resume-nextjs가 기반입니다!!!!.
+- 해당 resume는 https://github.com/uyu423/resume-nextjs 가 기반입니다!!!!.
 - 훌륭한 프로젝트를 만들어주신 개발자 분들 감사합니다!
 
 ## Contributors
