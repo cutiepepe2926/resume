@@ -32,7 +32,7 @@ const profile: IProfile.Payload = {
     {
       title: 'https://notion.so/kunhee2926',
       link:
-        'https://www.notion.so/250935c027f98048a294ef175f7ebf26?v=250935c027f9800494bd000cb7c9d567',
+        'https://almondine-collard-76c.notion.site/259935c027f98082860ff6fbe872868e?source=copy_link',
       icon: faFileArchive,
     },
   ],
